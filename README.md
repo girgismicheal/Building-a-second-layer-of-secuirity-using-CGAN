@@ -54,7 +54,7 @@ The generated tasks from the generator are robust and succussed to fault the cla
 In the cascade approach the discriminator helped the models because it can filter the fake tasks, so after the filtering it out the accuracies increased again to 0.926 in Adaboost and to 0.993 in the Random Forest model and this result is approximately one before mixing which means that the discriminator filtered.
 
 
-**Reference**
+# **Reference**
 1. GAN implementation via keras https://keras.io/examples/generative/conditional_gan/
 2. GAN implementation via tensorflow https://www.tensorflow.org/tutorials/generative/dcgan
 3. GAN tutorial https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-bystep-tutorial-fdefff170391
