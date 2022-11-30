@@ -53,3 +53,10 @@ pip install imbalanced-learn
 The generated tasks from the generator are robust and succussed to fault the classic ML algorithms because it is tried to generate tasks very close to the real one, so the models can’t determine it and the accuracies has been decreased from 0.92 to 0.575 in the Adaboost model and has been decreased from 0.993 to 0.590 in the Random Forest model.
 In the cascade approach the discriminator helped the models because it can filter the fake tasks, so after the filtering it out the accuracies increased again to 0.926 in Adaboost and to 0.993 in the Random Forest model and this result is approximately one before mixing which means that the discriminator filtered.
 
+
+**Reference**
+1. GAN implementation via keras https://keras.io/examples/generative/conditional_gan/
+2. GAN implementation via tensorflow https://www.tensorflow.org/tutorials/generative/dcgan
+3. GAN tutorial https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-bystep-tutorial-fdefff170391
+4. Chen, Zhiyan, and Burak Kantarci. "Generative Adversarial Network-Driven Detection of AdversarialTasks in Mobile Crowdsensing."arXiv preprint arXiv:2202.07802 (2022).
+5. Mirza, Mehdi, and Simon Osindero. "Conditional generative adversarial nets." arXiv preprint arXiv:1411.1784 (2014).
