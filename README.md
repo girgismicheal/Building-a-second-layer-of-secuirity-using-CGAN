@@ -39,3 +39,17 @@ pip install sklearn
 pip install imbalanced-learn
 ```
 
+## Results
+
+|    Original test set                                                                                               | Mixed without disc                                                                                  | Cascade framework                                                                                  |
+|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ![Original test set](https://drive.google.com/uc?export=view&id=1ZQSdpkSDZ-QCko7_9cE8iQDpWx7fYNnv) | ![Mixed without disc](https://drive.google.com/uc?export=view&id=10F31icaCioeeXcFox_4R9GkNMSm3KVmA) | ![Cascade framework](https://drive.google.com/uc?export=view&id=1ov0sRD1zQxonKinQjQOqzZsE4cvA-F06) |
+
+
+
+
+
+# Conclusion
+The generated tasks from the generator are robust and succussed to fault the classic ML algorithms because it is tried to generate tasks very close to the real one, so the models can’t determine it and the accuracies has been decreased from 0.92 to 0.575 in the Adaboost model and has been decreased from 0.993 to 0.590 in the Random Forest model.
+In the cascade approach the discriminator helped the models because it can filter the fake tasks, so after the filtering it out the accuracies increased again to 0.926 in Adaboost and to 0.993 in the Random Forest model and this result is approximately one before mixing which means that the discriminator filtered.
+
