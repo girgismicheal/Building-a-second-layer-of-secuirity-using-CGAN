@@ -30,6 +30,7 @@ Fake task attack is critical for Mobile Crowdsensing system (MCS) that aim to cl
 
 
 ## Important dependencies
+
 ```python
 pip install numpy 
 pip install tensorflow-gpu==2.9.1
