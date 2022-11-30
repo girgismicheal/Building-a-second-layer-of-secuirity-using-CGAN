@@ -27,3 +27,15 @@ Fake task attack is critical for Mobile Crowdsensing system (MCS) that aim to cl
 8. Obtain Adaboost and RF detection performance using the new test dataset and compare the results
 9. Consider the Discriminator to as the first level classifier and RF/Adaboost as the second level classifier
 
+
+## Important dependencies
+```python
+pip install numpy 
+pip install tensorflow-gpu==2.9.1
+pip install pandas 
+pip install seaborn 
+pip install matplotlib 
+pip install sklearn
+pip install imbalanced-learn
+```
+
